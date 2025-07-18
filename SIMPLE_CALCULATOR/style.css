@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: azure;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.main{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+.display{
+    background-color: rgb(220, 214, 214);
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+    padding:10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-gap:10px;
+    padding: 5px;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(248, 245, 245);
+    border-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+}
+.operator{
+    background-color: orange;
+}
+.equal{
+    background-color: blue;
+    color: white;
+    grid-column: span 2;
+}
+button:hover{
+    background-color: aliceblue;
+}
+
